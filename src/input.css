@@ -5,3 +5,7 @@
 body {
     @apply font-poppins;
   }
+
+  .active{
+    color: #008DD3;
+  }

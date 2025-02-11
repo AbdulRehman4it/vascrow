@@ -56,32 +56,30 @@
 
 
 <!-- Main Container -->
-<div class=" mx-auto px-6 py-16 bg-cover bg-center " style="background-image: url('./img/contact.png');">
+<div class="mx-auto xl:px-24 lg:px-12 px-5 lg:py-56 py-36 bg-cover bg-center" style="background-image: url('./img/contact.png');">
         
     <!-- Heading & Paragraph -->
-    <div class="text-center mb-12">
-        <h1 class="text-4xl font-bold text-gray-900">Contact Us</h1>
-        <p class="text-lg text-gray-600 mt-4">Need to get in touch? Simply fill in the form below, and our team will reach out shortly.</p>
-    </div>
     
     <!-- Contact Section with Background Image -->
-    <div class="relative bg-cover bg-center bg-no-repeat py-24 px-10 rounded-lg shadow-lg" style="background-image: url('your-background-image.jpg');">
-        <div class="absolute inset-0 bg-black bg-opacity-50 rounded-lg"></div>
+    <div class="relative lg:text-start text-center">
+        <div class="absolute rounded-lg"></div>
         
-        <div class="relative flex flex-col lg:flex-row justify-between items-center gap-12">
+        <div class="w-full relative flex flex-col lg:flex-row justify-between items-center gap-12">
             <!-- Left Side: Contact Details -->
-            <div class="text-white space-y-6 max-w-md">
-                <p class="flex items-center gap-3 text-lg"><span>📍</span> Ground Floor, 470 St Kilda Road, VIC 3004</p>
-                <p class="flex items-center gap-3 text-lg"><span>📧</span> info@vascor.com.au</p>
+            <div class="text-white space-y-6 lg:w-1/2 w-full">
+                <h1 class="text-4xl xl:text-[66px] font-semibold text-white">Contact Us</h1>
+        <p class="text-base 2xl:text-2xl text-white 2xl:leading-9 leading-9 mt-4">Need to get in touch? Simply fill in the form below, and our team will reach out shortly.</p>
+                <p class="flex items-center gap-3 2xl:text-[24px] text-base pt-10"><span><img src="img/map.png" alt=""></span>&nbsp; &nbsp; Ground Floor, 470 St Kilda Road, VIC 3004</p>
+                <p class="flex items-center gap-3 2xl:text-[24px] text-base"><span><img src="img/inbox.png" alt=""></span>&nbsp; info@vascor.com.au</p>
             </div>
             
             <!-- Right Side: Floating Contact Form -->
-            <div class="bg-white p-8 rounded-lg shadow-lg w-full max-w-lg">
-                <input type="text" placeholder="Enter Your Name" class="w-full px-4 py-3 border rounded mb-4">
-                <input type="email" placeholder="Your Email Address" class="w-full px-4 py-3 border rounded mb-4">
-                <input type="text" placeholder="Subject" class="w-full px-4 py-3 border rounded mb-4">
-                <textarea placeholder="Enter Details Here" class="w-full px-4 py-3 border rounded mb-4 h-24"></textarea>
-                <button class="w-full bg-blue-600 text-white py-3 rounded hover:bg-blue-700">Submit</button>
+            <div class="bg-[#003752] p-8 rounded-[40px] shadow-lg w-full lg:w-1/2">
+                <input type="text" placeholder="Enter Your Name" class="w-full px-4 py-3 border rounded-[20px] mb-4">
+                <input type="email" placeholder="Your Email Address" class="w-full px-4 py-3 rounded-[20px]  mb-4">
+                <input type="text" placeholder="Subject" class="w-full px-4 py-3 border rounded-[20px] mb-4">
+                <textarea placeholder="Enter Details Here" class="w-full px-4 py-3 border rounded-[20px] mb-4 h-24"></textarea>
+                <button class=" bg-[#008DD3] text-white py-3 px-16 rounded-[40px] hover:bg-[#008DD3]">Submit</button>
             </div>
         </div>
     </div>
@@ -96,7 +94,7 @@
 </div>
 <!-- Footer Section -->
 <footer class="bg-[#008DD3] text-white py-4 ">
-    <div class="max-w-7xl mx-auto flex justify-between items-center px-6">
+    <div class="flex md:flex-row flex-col justify-between items-center px-5 lg:px-24">
         <p class="text-sm">© 2025 All rights reserved by Vascor Pty Ltd ( ACN: 667 221 114 )</p>
         <div class="flex space-x-4">
             <a href="#" class="p-2  ">
@@ -108,5 +106,10 @@
         </div>
     </div>
 </footer>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
  </body>
 </html>
