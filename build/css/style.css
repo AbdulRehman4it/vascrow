@@ -637,10 +637,6 @@ video {
   margin-top: 2rem;
 }
 
-.mt-5{
-  margin-top: 1.25rem;
-}
-
 .mt-9{
   margin-top: 2.25rem;
 }
@@ -691,6 +687,20 @@ video {
 
 .h-full{
   height: 100%;
+}
+
+.h-auto{
+  height: auto;
+}
+
+.h-max{
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.max-h-max{
+  max-height: -moz-max-content;
+  max-height: max-content;
 }
 
 .w-1\/2{
@@ -919,6 +929,16 @@ video {
      object-fit: cover;
 }
 
+.object-fill{
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
+.object-center{
+  -o-object-position: center;
+     object-position: center;
+}
+
 .p-2{
   padding: 0.5rem;
 }
@@ -1034,6 +1054,14 @@ video {
 
 .pt-8{
   padding-top: 2rem;
+}
+
+.pt-16{
+  padding-top: 4rem;
+}
+
+.pt-4{
+  padding-top: 1rem;
 }
 
 .text-center{
@@ -1313,6 +1341,10 @@ body{
 }
 
 @media (min-width: 1280px){
+  .xl\:w-1\/2{
+    width: 50%;
+  }
+
   .xl\:max-w-5xl{
     max-width: 64rem;
   }
@@ -1321,8 +1353,17 @@ body{
     grid-template-columns: repeat(5, minmax(0, 1fr));
   }
 
+  .xl\:flex-row{
+    flex-direction: row;
+  }
+
   .xl\:gap-16{
     gap: 4rem;
+  }
+
+  .xl\:object-none{
+    -o-object-fit: none;
+       object-fit: none;
   }
 
   .xl\:px-24{
@@ -1346,6 +1387,26 @@ body{
 
   .xl\:pt-52{
     padding-top: 13rem;
+  }
+
+  .xl\:pt-0{
+    padding-top: 0px;
+  }
+
+  .xl\:pt-10{
+    padding-top: 2.5rem;
+  }
+
+  .xl\:pt-12{
+    padding-top: 3rem;
+  }
+
+  .xl\:pt-1{
+    padding-top: 0.25rem;
+  }
+
+  .xl\:pt-40{
+    padding-top: 10rem;
   }
 
   .xl\:text-2xl{
@@ -1374,8 +1435,21 @@ body{
     line-height: 1.75rem;
   }
 
+  .xl\:text-xs{
+    font-size: 0.75rem;
+    line-height: 1rem;
+  }
+
+  .xl\:text-\[13px\]{
+    font-size: 13px;
+  }
+
   .xl\:leading-\[44px\]{
     line-height: 44px;
+  }
+
+  .xl\:leading-6{
+    line-height: 1.5rem;
   }
 }
 
@@ -1390,6 +1464,15 @@ body{
 
   .\32xl\:gap-24{
     gap: 6rem;
+  }
+
+  .\32xl\:gap-16{
+    gap: 4rem;
+  }
+
+  .\32xl\:object-cover{
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 
   .\32xl\:p-10{
@@ -1432,6 +1515,10 @@ body{
 
   .\32xl\:pt-80{
     padding-top: 20rem;
+  }
+
+  .\32xl\:pt-7{
+    padding-top: 1.75rem;
   }
 
   .\32xl\:text-2xl{
