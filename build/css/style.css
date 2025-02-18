@@ -951,6 +951,10 @@ video {
   padding: 2rem;
 }
 
+.p-5{
+  padding: 1.25rem;
+}
+
 .px-16{
   padding-left: 4rem;
   padding-right: 4rem;
@@ -1470,6 +1474,10 @@ body{
     gap: 4rem;
   }
 
+  .\32xl\:gap-20{
+    gap: 5rem;
+  }
+
   .\32xl\:object-cover{
     -o-object-fit: cover;
        object-fit: cover;
@@ -1487,6 +1495,11 @@ body{
   .\32xl\:py-60{
     padding-top: 15rem;
     padding-bottom: 15rem;
+  }
+
+  .\32xl\:px-20{
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 
   .\32xl\:pb-40{
@@ -1519,6 +1532,14 @@ body{
 
   .\32xl\:pt-7{
     padding-top: 1.75rem;
+  }
+
+  .\32xl\:pt-72{
+    padding-top: 18rem;
+  }
+
+  .\32xl\:pt-64{
+    padding-top: 16rem;
   }
 
   .\32xl\:text-2xl{
@@ -1557,6 +1578,10 @@ body{
     line-height: 1.75rem;
   }
 
+  .\32xl\:text-\[22px\]{
+    font-size: 22px;
+  }
+
   .\32xl\:leading-10{
     line-height: 2.5rem;
   }
@@ -1575,5 +1600,9 @@ body{
 
   .\32xl\:leading-\[78px\]{
     line-height: 78px;
+  }
+
+  .\32xl\:leading-7{
+    line-height: 1.75rem;
   }
 }
