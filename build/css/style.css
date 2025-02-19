@@ -796,6 +796,10 @@ video {
   gap: 2rem;
 }
 
+.gap-2{
+  gap: 0.5rem;
+}
+
 .space-x-4 > :not([hidden]) ~ :not([hidden]){
   --tw-space-x-reverse: 0;
   margin-right: calc(1rem * var(--tw-space-x-reverse));
@@ -1332,6 +1336,22 @@ body{
     gap: 2.5rem;
   }
 
+  .lg\:gap-5{
+    gap: 1.25rem;
+  }
+
+  .lg\:gap-1{
+    gap: 0.25rem;
+  }
+
+  .lg\:gap-2{
+    gap: 0.5rem;
+  }
+
+  .lg\:gap-3{
+    gap: 0.75rem;
+  }
+
   .lg\:px-10{
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -1511,6 +1531,14 @@ body{
 
   .\32xl\:gap-16{
     gap: 4rem;
+  }
+
+  .\32xl\:gap-10{
+    gap: 2.5rem;
+  }
+
+  .\32xl\:gap-5{
+    gap: 1.25rem;
   }
 
   .\32xl\:object-cover{
