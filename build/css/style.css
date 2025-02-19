@@ -952,6 +952,10 @@ video {
   padding: 0.25rem;
 }
 
+.p-3{
+  padding: 0.75rem;
+}
+
 .px-16{
   padding-left: 4rem;
   padding-right: 4rem;
@@ -1377,6 +1381,26 @@ body{
     padding-bottom: 14rem;
   }
 
+  .lg\:px-1{
+    padding-left: 0.25rem;
+    padding-right: 0.25rem;
+  }
+
+  .lg\:px-8{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .lg\:px-5{
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+
+  .lg\:px-4{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .lg\:pb-24{
     padding-bottom: 6rem;
   }
@@ -1539,6 +1563,10 @@ body{
 
   .\32xl\:gap-5{
     gap: 1.25rem;
+  }
+
+  .\32xl\:gap-2{
+    gap: 0.5rem;
   }
 
   .\32xl\:object-cover{
