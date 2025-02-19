@@ -691,6 +691,14 @@ video {
   height: auto;
 }
 
+.h-\[200px\]{
+  height: 200px;
+}
+
+.h-\[300px\]{
+  height: 300px;
+}
+
 .w-1\/2{
   width: 50%;
 }
@@ -717,6 +725,10 @@ video {
 
 .w-full{
   width: 100%;
+}
+
+.w-\[200px\]{
+  width: 200px;
 }
 
 .max-w-2xl{
@@ -1108,6 +1120,14 @@ video {
   font-size: 1px;
 }
 
+.text-\[28px\]{
+  font-size: 28px;
+}
+
+.text-\[20px\]{
+  font-size: 20px;
+}
+
 .font-bold{
   font-weight: 700;
 }
@@ -1374,6 +1394,10 @@ body{
 }
 
 @media (min-width: 1280px){
+  .xl\:h-\[300px\]{
+    height: 300px;
+  }
+
   .xl\:w-1\/2{
     width: 50%;
   }
